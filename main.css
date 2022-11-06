@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100;1,400&family=Open+Sans:ital@1&display=swap');
+
+
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+
+    width: 100%;
+    height: 100%;
+    background-color: #B3B3B3;
+    
+
+    
+   
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+#menu a {
+    font-size: 18px ;
+    font-weight: bold ;
+}
+
+#menu button {
+
+    font-size: 18px;
+    font-weight: bold;
+}
+.carousel-inner{
+  
+    max-height: 30rem;
+
+}
+
+
+@media (max-width: 768px){
+
+    #intro{
+        width: 90% !important;
+    
+}
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+video{
+    max-width: 100%;
+    overflow-x: hidden !important;
+}
+
+.logo{
+   
+    display: flex !important;
+}
+.logo1{
+    display: flex !important;
+    to`padding-top: auto;
+}
+
+.patalla{
+    display: flex;
+}
+
+
+}
+.colorines{
+    background-color: #1877f2 !important;
+    display: flex !important;
+    border-radius: 3px !important;
+    color: white;
+    font-family: monospace !important;
+    border-top: 20px !important;
+    border: 4px !important;
+}
+.logo{
+    border-radius: 25px !important;
+    padding-right: 10px;
+}
+.banner{
+    height: 700px;
+   
+}
+.sombra{
+
+
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    padding-top: 5rem;
+    border-radius: 10px !important;
+    text-align: center;
+}
+
+
+.sombra::after{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    content: '';
+    background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 100%;
+    height: 100%;
+    filter:blur(10px);
+    z-index: -1;
+font
+
+
+}
+.sombra2{
+  margin: 0px auto;
+     background-color: white;
+    height: auto;
+    width: 80% !important;
+    position: relative;
+    padding-top: 5rem;
+    border-radius: 10px !important;
+    text-align: center;
+  
+
+}
+.sombra2::after{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    content: '';
+    background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 100%;
+    height: 100%;
+    filter:blur(10px);
+    z-index: -1;
+}
+.sombra3{
+     background-color: #B3B3B3 ;
+    height: 40%;
+    width: 100%;
+    position: relative;
+    padding-top: 5rem;
+    border-radius: 10px !important;
+    text-align: center;
+    justify-content: center;
+    align-content: center;i
+
+}
+.texto_1{
+
+ text-align: center;
+ font-size: 2rem !important;
+ color:#0d6efd;
+ width: bold;
+ background:  white ;
+ padding-bottom: 10%;
+
+
+
+
+}
+.fondo{
+   
+    width: 100%;
+    height: 100%;
+}
+
+.presentacion{
+
+    text-align: center;
+}
+.imagenes_chulas{
+
+    width: 40%;
+    margin: 20px auto;
+    align-content: center;
+
+}
+.tamaño{
+width: 100%;
+
+}
+.video{
+
+    width:30rem;
+    border-radius: 10px;
+}
+.colipe{
+
+    border-radius: 20%;
+     
+   
+    position: relative !important;
+    
+    
+}
+.colipe::after { 
+ position: absolute !important;
+bottom: 0px !important;
+left: 0px !important;
+content: '';
+background: #8E2DE2 !important;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2) !important;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+width: 100% !important;
+height: 100% !important;
+filter:blur(10px) !important;
+z-index: -1 !important;
+
+
+}
+.fondomov{
+
+    background: linear-gradient(150deg,#5709FF  ,#FF0909 , #09FF72 );
+    background-size: 400% 500%;
+    animation: BgGradient 5s ease infinite;
+}
+
+@keyframes BgGradient{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+}
+.botonbajo{
+
+padding-bottom: 15%;
+
+
+}
+
+.linea{
+
+    size: 20px;
+    height: 20rem;
+}
+.marco{
+
+
+    background-color: white ;
+    width: 120%;
+    height: 120%;
+    z-index: 1;
+}
+.texto_2{
+    text-align: center;
+ font-size: 2rem !important;
+ color:black;
+ width: bold;
+ background:  white ;
+ padding-bottom: 10%;
+
+
+
+
+}
+
+.text-pt-right{
+
+    padding-right: 40%;
+}
+.imagen2{
+
+    width: 70%;
+
+    padding-bottom: 20%;
+
+
+}
